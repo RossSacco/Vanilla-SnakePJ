@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'FontStats';
+    src: url('./../font/fontStats.ttf') format('truetype');
+}
+
+h2{
+    font-family: 'FontStats';
+    color: #F4EBE8;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+body{
+    /* background-color: #272838; */
+    background-image: linear-gradient( 
+        to top right,  #CE2D4F,  #272838 60%
+    );
+    color: #F4EBE8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'FontStats';
+    overflow: hidden;
+}
+
+#log{
+    position: absolute;
+    height: 8%;
+    top:5%;
+    right:3%;
+}
+
+.slider{
+    position: relative;
+    width:100%;
+    /* height: 650px; */
+    
+}
+
+.card{
+    position: absolute; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50em;
+    height: 40em;
+    text-align: center;
+    background-color: #af2c49;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.3s;
+    left: calc(50% - 26rem); 
+    /* border: 2px solid white; */
+    box-shadow: 0px 0px 25px 7px #272838;
+    overflow: hidden;
+   
+}
+
+.card-image {
+    position: absolute; 
+    top: 10%;  
+    width: 110%;
+    height: 130%;
+    right: 10%; 
+    z-index: -1; 
+    opacity: 0.3; 
+}
+
+.card h1{
+    font-size: 4rem;
+    margin:0;
+    margin-bottom: 10px;
+    
+}
+
+#next, #prev{
+    position: absolute;
+    top: 43%;
+    color: #F4EBE8;
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    left:150px;
+    font-size: 10rem;
+    z-index: 6;
+    cursor: pointer;
+}
+#next{
+    left: unset;
+    right: 150px;
+}
+
+table{
+    border-collapse:separate;
+    background-image: linear-gradient( 
+        to top right,  #ce2d50b0,  #272838ae 60%
+    );
+    border-radius: 10px;
+    border-spacing: 0px 5px;
+}
+
+table th{
+    font-size: 3rem;
+    padding:0.2rem 2rem 0.2rem 2rem;
+    background-color: transparent;
+}
+
+table tr{
+    background-image: linear-gradient( 
+        to top right,  #ce2d5084,  #2728387c 60%
+    );
+}
+
+table td{
+    font-size: 2rem;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+
+}
+
+.numero{
+    background-color: transparent;
+}
+
+p{
+    font-size: 3rem;
+    background-color: #272838a9;
+    width: 100%;
+}
+
+.rilievo{
+    box-shadow: 0px 0px 30px #F4EBE8;
+}

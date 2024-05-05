@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'FontStats';
+    src: url('./../font/fontStats.ttf') format('truetype');
+}
+
+h2{
+    font-family: 'FontStats';
+    color: #F4EBE8;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+body{
+    /* background-color: #272838; */
+    background-image: linear-gradient( 
+        to top right,  #CE2D4F,  #272838 60%
+    );
+    color: #F4EBE8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'FontStats';
+    overflow: hidden;
+}
+
+.slider{
+    position: relative;
+    width:100%;
+    height: 650px;
+    /* overflow: hidden; */
+
+}
+
+.card{
+    position: absolute;
+    width: 20em;
+    height: 35em;
+    text-align: center;
+    background-color: #CE2D4F;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.3s;
+    left: calc(50% - 180px); 
+    /* border: 2px solid white; */
+    box-shadow: 0px 0px 25px 7px #272838;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+#hh{
+   
+    left: -10%;
+    top:5%;
+    width: 130%;
+}
+
+#log{
+    position: absolute;
+    height: 8%;
+    top:5%;
+    right:6%;
+}
+
+.card-image {
+    position: absolute; 
+    top: 10%;  
+    width: 120%;
+    height: 130%;
+    right: 10%; 
+    z-index: -1; 
+    opacity: 0.7; 
+}
+
+.rilievo:hover{
+    background-image: linear-gradient( 
+        to top right,  #272838 ,  #CE2D4F 75%
+    );
+    box-shadow: 0px 0px 10px 10px rgb(200, 181, 181);
+}
+
+.rilievo:hover h1{
+    font-size: 7rem;
+    /* transform: scale(1.1); */
+    background-color: #2728384c;
+    border-radius: 10px;
+}
+
+.rilievo:hover p{
+    /* transform: scale(1.1); */
+    background-color: #2728384c;
+    border-radius: 10px;
+    padding: 20px 10px 20px 5px;
+    margin-right: 2rem;
+}
+
+
+
+.card p{
+    position: absolute;
+    top: 70%;
+    text-align:justify;
+    font-size: 1.5rem;
+    padding: 20px 10px 20px 5px;
+    margin: 0px 2rem 0px 10px;
+}
+
+.card h1{
+    position: relative;
+    /* top:30%; */
+    font-size: 6rem;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    
+    /* transition: transform 0.3s ease; */
+    
+}
+#tw{
+    background-color: transparent;
+    position: absolute;
+    top: 0%;
+    left: -0.3rem;
+    color: #7e1b31;
+    padding: 0px;
+}
+
+#next, #prev{
+    position: absolute;
+    top: 30%;
+    color: #F4EBE8;
+    background-color: transparent;
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+    left:150px;
+    font-size: 10rem;
+    z-index: 6;
+    cursor: pointer;
+}
+#next{
+    left: unset;
+    right: 150px;
+}

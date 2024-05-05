@@ -1,0 +1,19 @@
+
+#back{
+    position: absolute;
+    left: 3rem;
+    top:3rem;
+    z-index: 10006;
+    width: 6rem;
+    height: 6rem;
+}
+
+#back:hover{
+    cursor: pointer;
+    height: 10%;
+    width: 10%;
+}
+
+.hidden{
+    display: none;
+}

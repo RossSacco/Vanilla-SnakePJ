@@ -1,0 +1,185 @@
+
+@font-face {
+    font-family: 'FontStats';
+    src: url('./../font/fontStats.ttf') format('truetype');
+}
+
+body{
+     /* background-color: #272838;  */
+   /* background-image: url(/immagini/disegnoSfondo.jpg);*/ 
+   background-image: linear-gradient( 
+        to top right,  #CE2D4F,  #272838 60%
+    );   
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'FontStats';
+    overflow: hidden;
+    height: 100vh;
+}
+
+.home{
+    margin: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* h1{
+    text-shadow: 5px 5px 5px #4055f4ed;
+    color: #CE2D4F;
+    font-size: 8em;
+    margin: 0rem;
+    margin-bottom: 5rem;
+    text-decoration:overline underline;
+    text-decoration-color: #CE2D4F;    
+} */
+
+#dashboard{
+    display: flex;
+    align-items: center;
+    color:#CE2D4F;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10rem;
+    border-radius: 30px;
+    padding:3rem;
+    padding-top: 18rem;
+    padding-bottom: 16rem;
+    background-color: #27283867;
+}
+.gigi{
+    position: absolute;
+    left: 6%;
+    top: 52%;
+    height: 60%;
+}
+
+img{
+    position: absolute;
+    height: 30%;
+    top:2%;
+    margin-top: 0rem;
+}
+.serp{
+    position: absolute;
+    z-index: -1;
+    height: 80%;
+    top: 20%;
+    opacity: 0.7;
+}
+
+.sf{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    z-index: -1;
+    height: 100%;
+    opacity: 0.7;
+}
+#piccolo{
+    left: 0%;
+}
+#grande{
+    right:5%;
+}
+button{
+    color:#f4ebe8;
+    background-color: transparent;
+    font-family: 'FontStats';
+    border: transparent;
+    font-size: 4rem;
+    margin: 0rem 1rem 2rem 1rem;
+}
+
+button:hover {
+    color:#f4ebe8;
+    cursor: pointer;
+    text-shadow: 0px 5px 10px #4055f4ed,
+    3px 0px 0px #CE2D4F, 
+    -3px 0px 0px #CE2D4F,
+    0px 3px 0px #CE2D4F, 
+    0px -3px 0px #CE2D4F,
+    3px 3px 0px #CE2D4F, 
+    -3px -3px 0px #CE2D4F,
+    3px -3px 0px #CE2D4F, 
+    -3px 3px 0px #CE2D4F;
+}
+
+
+#logout_button {
+    background-image: linear-gradient( 
+        to  left,  #CE2D4F,  #272838 90%
+    );   
+    display: inline flex;
+    position: absolute;
+    align-items: center;
+    
+    right: -1rem;
+    /* top: 2.7rem; */top: 30%;
+    padding: 3rem;
+    width: 30rem;
+    height: 7rem;
+    
+}
+
+#logout_button p {
+      
+    padding-left:15rem ;
+      font-size: 3rem;
+}
+
+#logout_button img {
+    padding-left: 11rem ;
+    margin-top: 2.5rem;
+    width: 10%;
+    height: 30%;
+   
+}
+
+#saluto{
+    color:#f4ebe8;
+     background-image: linear-gradient( 
+        to  right,    #272838, #ce2d5037 90%
+    );  
+    font-size: 3rem;
+    position: absolute;
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    left: 0rem;
+    /* top: 2.7rem; */
+    top: 30%;
+    width: 29.3rem;
+    height: 7rem;
+    padding-left: 2.7rem;
+}
+
+#saluto img{
+    top:2.1rem;
+    left: 5rem;
+    width: 10%;
+    height: 40%;
+}
+
+#saluto:hover {
+    color:#f4ebe8;
+    
+    text-shadow: 0px 5px 10px #4055f4ed,
+    3px 0px 0px #CE2D4F, 
+    -3px 0px 0px #CE2D4F,
+    0px 3px 0px #CE2D4F, 
+    0px -3px 0px #CE2D4F,
+    3px 3px 0px #CE2D4F, 
+    -3px -3px 0px #CE2D4F,
+    3px -3px 0px #CE2D4F, 
+    -3px 3px 0px #CE2D4F;
+}
+
+#saluto img:hover{
+    cursor: pointer;
+    
+}

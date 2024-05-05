@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'FontStats';
+    src: url('./../font/fontStats.ttf') format('truetype');
+}
+
+.gameOverScreen {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #272838b1;
+    color: #CE2D4F;
+    font-family: 'FontStats';
+    text-align: center;
+    padding-top: 20%;
+    z-index: 9999;
+    font-size: 10em;
+}
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #272838;
+    color: #F4EBE8;
+    overflow: hidden;
+    font-family: 'FontStats';
+}
+
+img{
+    position: absolute;
+    height: 8%;
+    top:5%;
+    left:6%;
+}
+
+#stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'FontStats';
+    font-size: 50px;
+    margin: 1em 1em 0em 1em;
+    color: #797b9a;
+    overflow: hidden;
+}
+
+#inf{
+    font-size: 60%;
+}
+
+#scrittaENTER{
+    position: relative;
+    top:10%;
+    font-size: 2rem;
+}
+
+#game {
+    border: double 10px #F4EBE8;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 2rem;
+    display: flex;
+
+}
+
+/* #punteggio{
+    border: 2px solid #F4EBE8;
+    width: 9rem;
+    height: 2rem;
+    margin-left: 6px;
+    margin-bottom: 1rem;
+} */
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+#controls button {
+    background-color: transparent;
+    color: #f4ebe8;
+    align-items: center;
+    border: solid 2px #CE2D4F;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'FontStats';
+    padding: 10px 50px 10px 50px;
+}
+
+/*tast indietro in pausa e GO*/
+#ind{
+    position: absolute;
+    left: 2rem;
+    top:2em;
+    z-index: 10000;
+    width: 10rem;
+    height: 10rem;
+}
+
+#ind:hover{
+    cursor: pointer;
+}
+
+#ind img:hover{
+    height: 75%;
+    width: 100%;
+}
+
+/*bottone dopo pausa*/
+#restart {
+    background-color: transparent;
+    color: #f4ebe8;
+    align-items: center;
+    border: solid 2px #9f3249;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: 'FontStats';
+    padding: 10px 50px 10px 50px;
+}
+
+#restart:hover {
+    background-color:  #CE2D4F;
+    box-shadow: 10px 10px 20px #9f3249;
+    cursor: pointer;
+}
+
+
+#controls button:hover {
+    
+    background-color: #CE2D4F;
+    box-shadow: 0px 0px 10px 5px #9f3249;
+
+}
+
+.cibo {
+    background-color: #CE2D4F ;
+    /*rgb(200, 30, 226)*/
+    box-shadow: 0px 0px 10px 3px #9f3249;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+table {
+
+    /* padding: 10em; */
+    border: 0px #f4ebe885;
+    border-style: dashed;
+    margin: 3rem;
+    border-collapse: collapse;
+    background-color: #523138;
+
+}
+
+/*per gli angoli delle celle*/
+td {
+    padding: 10px; 
+
+    position: relative;
+}
+
+/* Creare gli angoli utilizzando pseudo-elementi */
+td::before,
+td::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    /* larghezza degli angoli */
+    height: 2px;
+    /* spessore degli angoli */
+    background-color: #f4ebe859;
+    /* colore degli angoli */
+}
+
+/* Angoli superiori (sinistra e destra) */
+td::before {
+    top: 0;
+    left: 0;
+}
+
+td::before::after {
+    top: 0;
+    right: 0;
+    transform: rotateZ(90deg);
+    /* per metterlo in verticale */
+}
+
+/* Angoli inferiori (sinistra e destra) */
+td::after {
+    bottom: 0;
+    left: 0;
+    transform: rotateZ(90deg);
+    /* per metterlo in verticale */
+}
+
+td::after::after {
+    bottom: 0;
+    right: 0;
+}
+
+.corpo {
+    background-color: white;
+
+
+}
+
+
+.testolinaDX {
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.testolinaSX {
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.testolinaSU {
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.testolinaGIU {
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.codaSX {
+    clip-path: polygon(100% 50%, 0% 0%, 0% 100%);
+}
+
+.codaDX {
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+}
+
+.codaGIU {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.codaSU {
+    clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+}
+
+/*bottoni dopo gameover*/
+.riprova {
+    z-index: 9999;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #CE2D4F;
+    border: 1px solid #CE2D4F;
+    font-family: 'FontStats';
+    text-align: center;
+    font-size: 3rem;
+    padding-left: 8px;
+}
+
+.riprova:hover {
+    background-color: #9f3249;
+    cursor: pointer;
+}
+
+#schermoGO {
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+
+.ostacolo {
+
+    background-color: rgb(18, 18, 74);
+}
+
+#scritteRec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 3rem;
+    font-size: 3rem;
+    z-index: 9999;
+    margin:0;
+}
+
+.record{
+    color: #F4EBE8;
+    font-size: 3rem;
+    text-shadow: 0px 5px 10px #4055f4ed,
+    3px 0px 0px #CE2D4F, 
+    -3px 0px 0px #CE2D4F,
+    0px 3px 0px #CE2D4F, 
+    0px -3px 0px #CE2D4F,
+    3px 3px 0px #CE2D4F, 
+    -3px -3px 0px #CE2D4F,
+    3px -3px 0px #CE2D4F, 
+    -3px 3px 0px #CE2D4F;
+    margin: 2rem;
+}

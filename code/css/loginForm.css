@@ -1,0 +1,159 @@
+
+
+@font-face {
+    font-family: 'FontStats';
+    src: url('./../font/fontStats.ttf') format('truetype');
+}
+
+
+body{
+    background-image: linear-gradient( 
+        to top right,  #CE2D4F,  #272838 60%
+    );   
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'FontStats';
+    overflow: hidden;
+    height: 100vh;
+}
+
+#logo{
+    position: absolute;
+    height: 30%;
+    top:2%;
+    margin-top: 0rem;
+}
+
+#divLogin{
+    display: flex;
+    align-items: center;
+    color:#CE2D4F;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    border-radius: 30px;
+    padding:2.8rem;
+    padding-top: 18rem;
+    padding-bottom: 16rem;
+    background-color: #27283867;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align:justify;
+    margin: 2rem 0rem 2rem 0rem;
+    padding:0rem 1rem 0rem 1rem;
+    font-size: 1.7rem;
+}
+label{
+    margin: 0px 0px 3px 5px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0px 2px 10px #CE2D4F;
+}
+
+#password_login, #username_login{
+    height: 2rem;
+    width: 20rem;
+    background-color:#f4ebe8d1;
+    border-radius: 10px;
+    border: 2px solid #f4ebe8;
+    font-family: 'FontStats';
+    color: #272838;
+    font-size: 1.2rem;
+    padding: 0px 0px 0px 10px;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+a{
+    color: #CE2D4F;
+}
+
+a:visited{
+    color: #f4ebe8;
+}
+
+#acc{
+    background-color: transparent;
+    border:2px solid #CE2D4F;
+    border-radius: 10px;
+    color: #CE2D4F;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#acc:hover{
+    background-color: #ce2d50ac;
+    color: #f4ebe8;
+    border: 2px solid #f4ebe8;
+    box-shadow: 0px 0px 10px #f4ebe8 ;
+}
+
+
+.hidden {
+    display: none !important;
+}
+
+.success{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #272838b1;
+    color:#f4ebe8;
+    
+    text-align: center;
+    z-index: 9999;
+    padding-top: 20%;
+    font-size: 2em;
+}
+
+.success h3{
+    padding: 2rem;
+    font-family: 'FontStats';
+    background-color: #ce2d50a8;
+}
+
+.success button{
+    background-color: #ce2d50a8;
+    font-family: 'FontStats';
+    color:#f4ebe8;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border:2px solid #f4ebe8;
+}
+
+.success button:hover{
+    cursor: pointer;
+    font-size: 2rem;
+    box-shadow: 0px 0px 10px #f4ebe8;
+}
+
+.eyeIcons{
+    cursor: pointer;
+	width: 22px;
+	position: absolute;
+	right: 50px;
+	margin-top: 39px;
+    margin-right: 520px;
+}
+
+#form_message_login{
+    color:#f4ebe8;
+    font-size: 1.4rem;
+}
