@@ -4,4 +4,24 @@ I completed the implementation of the classic game Snake as a project for a cour
 
 ## Here a general view
 
-![immagine home](game_img/img1.png)
+
+<div>
+  <img src="game_img/img1.png" alt="Descrizione" width="500"  height="300">
+  <img src="game_img/img3.png" alt="Descrizione" width="500" height="300">
+</div>
+
+<div>
+  <img src="game_img/img2.png" alt="Descrizione" width=auto  height=auto>
+   <img src="game_img/img4.png" alt="Descrizione" width=auto  height=auto>
+</div>
+
+<div>
+  <img src="game_img/img5.png" alt="Descrizione" width="500"  height="300">
+  <img src="game_img/img6.png" alt="Descrizione" width="500" height="300">
+</div>
+
+<div>
+  <img src="game_img/img7.png" alt="Descrizione" width=auto  height=auto>
+  <img src="game_img/img8.png" alt="Descrizione" width=auto  height=auto>
+</div>
+
