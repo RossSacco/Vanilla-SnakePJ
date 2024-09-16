@@ -6,7 +6,7 @@ I completed the implementation of the classic game Snake as a project for a cour
 
 
 <div>
-  <img src="game_img/img1.png" alt="Descrizione" width="4000"  height="250">
+  <img src="game_img/img1.png" alt="Descrizione" width="400"  height="250">
   <img src="game_img/img3.png" alt="Descrizione" width="400" height="250">
 </div>
 
