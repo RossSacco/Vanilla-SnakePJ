@@ -6,8 +6,8 @@ I completed the implementation of the classic game Snake as a project for a cour
 
 
 <div>
-  <img src="game_img/img1.png" alt="Descrizione" width="500"  height="300">
-  <img src="game_img/img3.png" alt="Descrizione" width="500" height="300">
+  <img src="game_img/img1.png" alt="Descrizione" width="350"  height="250">
+  <img src="game_img/img3.png" alt="Descrizione" width="350" height="250">
 </div>
 
 <div>
@@ -16,8 +16,8 @@ I completed the implementation of the classic game Snake as a project for a cour
 </div>
 
 <div>
-  <img src="game_img/img5.png" alt="Descrizione" width="500"  height="300">
-  <img src="game_img/img6.png" alt="Descrizione" width="500" height="300">
+  <img src="game_img/img5.png" alt="Descrizione" width="350"  height="250">
+  <img src="game_img/img6.png" alt="Descrizione" width="350" height="250">
 </div>
 
 <div>
