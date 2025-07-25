@@ -1,13 +1,15 @@
 # Vanilla-SnakePJ
 
-I completed the implementation of the classic game Snake as a project for a course focused on web development. This project encompassed both frontend and backend aspects of the game. Additionally, I dedicated considerable effort to crafting a visually appealing design inspired by a vintage aesthetic.
+
+As part of a web development course project, I designed and implemented a complete version of the classic Snake game using HTML, CSS, and JavaScript. The project covers both the frontend logic and user interface, with a strong focus on delivering smooth gameplay and responsive interactions. Inspired by vintage arcade aesthetics, I also devoted special attention to the visual design to recreate a nostalgic yet modern feel.
+
 
 ## Here a general view
 
 
 <div>
-  <img src="game_img/img1.png" alt="Descrizione" width="400"  height="250">
-  <img src="game_img/img3.png" alt="Descrizione" width="400" height="250">
+  <img src="game_img/img1.png" alt="Descrizione" width=auto  height=auto>
+  <img src="game_img/img3.png" alt="Descrizione" width=auto height=auto>
 </div>
 
 <div>
@@ -16,8 +18,8 @@ I completed the implementation of the classic game Snake as a project for a cour
 </div>
 
 <div>
-  <img src="game_img/img5.png" alt="Descrizione" width="400"  height="250">
-  <img src="game_img/img6.png" alt="Descrizione" width="400" height="250">
+  <img src="game_img/img5.png" alt="Descrizione" width=auto  height=auto>
+  <img src="game_img/img6.png" alt="Descrizione" width=auto height=auto>
 </div>
 
 <div>
